@@ -1,0 +1,447 @@
+
+style.css
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #121212; 
+    color: #fff; 
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #eb3926; 
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 22px;
+    color: #ffffff; 
+}
+
+.container {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.userInfo, .balance, .transacciones, .deposito, .retiro, .historialTransacciones, .ruleta, .Saldo {
+    background: #1e1e1e; 
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    max-width: 800px;
+    color: #fff; 
+}
+
+
+.balance p {
+    font-size: 26px;
+    font-weight: bold;
+    color: #e74c3c; 
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    color: #fff; 
+}
+
+th {
+    background-color: #333;
+    color: #e74c3c; 
+}
+
+tr:nth-child(even) {
+    background-color: #1a1a1a;
+}
+
+tr:hover {
+    background-color: #444;
+}
+
+input, button .deposito, button.retiro {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 8px;
+}
+
+input {
+    width: 90%;
+    background: #2a2a2a;
+    color: #fff;
+}
+
+button {
+    background-color: #e74c3c;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #c0392b;
+}
+
+.ruleta a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    padding: 15px 30px;
+    background-color: #e74c3c;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.ruleta a:hover {
+    background-color: #c0392b;
+}
+
+.historialTransacciones ul {
+    list-style: none;
+    padding: 0;
+}
+
+.historialTransacciones li {
+    padding: 8px;
+    border-bottom: 1px solid #444;
+    color: #fff;
+}
+
+/*clases modificadas para logIn y signUp. se espera que tambien sirva para
+el menu para ingresar y retirar dinero. forms significa formulario*/
+
+h2.forms{
+    color: white;
+    background-color: red;
+    text-align: center;
+    border: 1px solid #a80303;
+    padding: 15px 0px;
+    margin: 0px;
+}
+
+p.forms{
+    text-align: left;
+    padding-left: 20px;
+}
+
+div.formsFondo{
+    background-color: rgb(235, 235, 235);
+    padding-top: 15px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+div.espacio{
+    padding-bottom: 10px;
+}
+
+input:hover{
+    background-color: lightgrey;
+}
+
+button.submit{
+    color: white;
+    background-color: #a73333;
+    border-radius: 15px;
+}
+
+button.submit:hover{
+    background-color: rgb(201, 80, 80);
+}
+
+/*barra superior horizontal*/
+
+ul.home{
+    list-style-type: none;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+    overflow: hidden;
+    border: 1px solid #a80303;
+}
+
+li.homeLeft{
+    float: left;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+li.homeRight{
+    float: right;
+    padding: 10px 10px;
+    text-align: center;
+}
+    li:hover {
+        background-color: #bf0404;
+    }
+
+#wallet{
+    background-color: rgb(3, 151, 3);
+}
+    #wallet:hover{
+        background-color: green;
+    }
+
+#logIn{
+        background-color: red;
+}
+    #logIn:hover{
+        background-color: #bf0404;
+        
+    }
+
+    a.logIn{
+        color: rgb(255, 255, 255);
+    }
+
+#depositoHOME{
+        background-color:red;
+}
+    #depositoHOME:hover{
+        background-color: #bf0404;
+    }
+
+    a.depositoHOME{
+        color: rgb(241, 241, 241);
+    }
+
+
+/*clases para landingSite*/
+
+p.allIn{
+    font-size: 100px;
+    margin: 12px 0px;
+    padding-left: 25px;
+}
+
+H2.sub{
+    font-size: 40px;
+    margin: 15px 0px;
+    padding-left: 25px;
+}
+
+div.contenedor{
+    display: flex;
+    padding-left: 25px;
+    gap:130px;
+}
+
+div.modulo{
+
+}
+
+div.tituloModulo{
+
+}
+
+/*Clases para reglas de la ruleta */
+h2.forms {
+    color: white;
+    background-color: red;
+    text-align: center;
+    border: 1px solid #a80303;
+    padding: 15px 0px;
+    margin: 0px;
+}
+
+
+p.forms {
+    text-align: left;
+    padding: 10px 20px;
+    color: black;
+}
+
+/* Caja de fondo para el contenido */
+div.formsFondo {
+    background-color: rgb(235, 235, 235);
+    padding: 20px;
+    margin-top: 0px;
+    text-align: left;
+    border-radius: 8px;
+}
+
+/* Subtítulos de secciones */
+h3.subtitulo {
+    color: red;
+    margin-top: 20px;
+}
+
+/* Listas de reglas/apuestas */
+ul.lista {
+    text-align: left;
+    padding-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+/* Espaciado para botón */
+div.espacio {
+    padding-top: 15px;
+    text-align: center;
+}
+
+/* Botón similar al de signUp */
+button.submit {
+    color: white;
+    background-color: #6457d3;
+    border-radius: 15px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button.submit:hover {
+    background-color: rgb(80, 123, 201);
+}
+
+
+
+/* de aqui pa abajo es para la mesa de ruleta */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* gris claro de fondo */
+    margin: 0;
+    padding: 0;
+}
+
+/* titulo main */
+h2.forms {
+    color: white;
+    background-color: red;
+    text-align: center;
+    border: 1px solid #a80303;
+    padding: 15px 0px;
+    margin: 0px;
+}
+
+/* contenedor principal*/
+div.formsFondo {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 900px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* subtitulos */
+h3.subtitulo {
+    color: red;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    border-bottom: 2px solid #a80303;
+    padding-bottom: 5px;
+}
+
+/* imagen de ruleta */
+.ruleta-img {
+    width: 70%;
+    max-width: 500px;
+    border: 2px solid #a80303;
+    border-radius: 10px;
+    display: block;
+    margin: 10px auto;
+}
+
+/* estado del juego */
+p.estado {
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    background-color: #bf0404; /* rojo oscuro */
+    border-radius: 5px;
+    display: inline-block;
+    padding: 8px 15px;
+}
+
+/* saldo */
+p.saldo {
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+    background-color: #e1fbe1;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+/* lsita de números */
+ul.lista {
+    text-align: left;
+    padding-left: 40px;
+    margin: 10px 0px 20px 0px;
+    color: black;
+}
+
+.rojo { color: red; font-weight: bold; }
+.negro { color: black; font-weight: bold; }
+.verde { color: green; font-weight: bold; }
+
+/* tabla de apuesta */
+table.tabla-apuesta {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+table.tabla-apuesta th, 
+table.tabla-apuesta td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+table.tabla-apuesta th {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+/* boton de volver */
+div.espacio {
+    padding-top: 20px;
+    text-align: center;
+}
+
+button.submit {
+    color: white;
+    background-color: #6457d3; /* morado */
+    border-radius: 20px;
+    padding: 12px 25px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button.submit:hover {
+    background-color: rgb(80, 123, 201);
+}
